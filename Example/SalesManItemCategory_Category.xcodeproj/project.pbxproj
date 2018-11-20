@@ -31,8 +31,8 @@
 		000DD4C0CBFBB1BDBF498DE4 /* Pods-SalesManItemCategory_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalesManItemCategory_Category_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SalesManItemCategory_Category_Tests/Pods-SalesManItemCategory_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C72C26F506CB0A79A16D5C5 /* Pods-SalesManItemCategory_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalesManItemCategory_Category_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SalesManItemCategory_Category_Example/Pods-SalesManItemCategory_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		36803F343169FBDFBDE92030 /* Pods-SalesManItemCategory_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalesManItemCategory_Category_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SalesManItemCategory_Category_Tests/Pods-SalesManItemCategory_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3B1C3950F3EF17B9DA682753 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		43CA9CD676BFAC563D0AAADF /* SalesManItemCategory_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SalesManItemCategory_Category.podspec; path = ../SalesManItemCategory_Category.podspec; sourceTree = "<group>"; };
+		3B1C3950F3EF17B9DA682753 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		43CA9CD676BFAC563D0AAADF /* SalesManItemCategory_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SalesManItemCategory_Category.podspec; path = ../SalesManItemCategory_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SalesManItemCategory_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesManItemCategory_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		C0A2FC322482B7490CEEB099 /* Pods-SalesManItemCategory_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalesManItemCategory_Category_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SalesManItemCategory_Category_Example/Pods-SalesManItemCategory_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA7714E629ACC6259CEE9B28 /* Pods_SalesManItemCategory_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManItemCategory_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6EE0F85AAFEB87F24C17C7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E6EE0F85AAFEB87F24C17C7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F5055D316965C260E39A2B89 /* Pods_SalesManItemCategory_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManItemCategory_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -304,10 +304,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SalesManItemCategory_Category_Example/Pods-SalesManItemCategory_Category_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/SalesManItemCategory_Category/SalesManItemCategory_Category.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SalesManItemCategory_Category.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

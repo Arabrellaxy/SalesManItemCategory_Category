@@ -1,0 +1,20 @@
+PODS:
+  - CTMediator (25)
+  - SalesManItemCategory_Category (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - CTMediator
+  - SalesManItemCategory_Category (from `../`)
+
+EXTERNAL SOURCES:
+  SalesManItemCategory_Category:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  SalesManItemCategory_Category: ba2c38fe1e747f14a4220a890745f473e81063fe
+
+PODFILE CHECKSUM: 8bcdd197012ba5fede24e5b779096dd4360074ac
+
+COCOAPODS: 1.4.0

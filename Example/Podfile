@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'SalesManItemCategory_Category_Example' do
   pod 'SalesManItemCategory_Category', :path => '../'
+  pod 'CTMediator'
 
   target 'SalesManItemCategory_Category_Tests' do
     inherit! :search_paths

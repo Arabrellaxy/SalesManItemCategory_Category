@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SalesManItemCategory_Category_Example' do
+  pod 'SalesManItemCategory_Category', :path => '../'
+
+  target 'SalesManItemCategory_Category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
